@@ -148,8 +148,8 @@ class AMSXBlock(StudioEditableXBlockMixin, XBlock):
         '''
         fragment.add_javascript(loader.load_unicode('node_modules/videojs-vtt.js/lib/vttcue.js'))
 
-        fragment.add_css_url('//amp.azure.net/libs/amp/1.8.1/skins/amp-default/azuremediaplayer.min.css')
-        fragment.add_javascript_url('//amp.azure.net/libs/amp/1.8.1/azuremediaplayer.min.js')
+        fragment.add_css_url('//amp.azure.net/libs/amp/2.1.0/skins/amp-default/azuremediaplayer.min.css')
+        fragment.add_javascript_url('//amp.azure.net/libs/amp/2.1.0/azuremediaplayer.min.js')
 
         fragment.add_javascript(loader.load_unicode('static/js/player.js'))
 

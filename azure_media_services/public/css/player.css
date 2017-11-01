@@ -59,3 +59,42 @@ li.video-tracks.video-download-button {
 .closed .subtitles {
     display: none;
 }
+
+.amp-default-skin .vjs-control-bar .amp-controlbaricons-right {
+    float: right;
+    width: auto;
+}
+
+.amp-default-skin .vjs-control:hover {
+    background: #3c454f !important;
+}
+
+.amp-default-skin .vjs-progress-control .vjs-mouse-display {
+    width: 30px;
+    height: 0px;
+}
+
+.amp-default-skin .vjs-control:focus {
+    background: #3c454f !important;
+}
+
+.amp-default-skin .vjs-control{
+    background: #3c454f !important;
+    border: #3c454f
+}
+
+button:hover:not(:disabled) {
+    box-shadow: none;
+    border: #3c454f
+}
+
+button:focus:not(:disabled) {
+    box-shadow: none;
+    border: #3c454f
+}
+
+button:not(:disabled) {
+    box-shadow: none;
+    border: #3c454f
+}
+
